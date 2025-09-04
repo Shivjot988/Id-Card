@@ -1,16 +1,10 @@
 
 
-// Dummy data (JSON)
 const productData = [
     {
     },
 ];
 
-/**
- * ProductCard Component
- * This returns an HTML string that represents a single product card.
- * @param {Object} product - The product data object.
- */
 function ProductCard(product) {
     return `
                 <div class="product-card">
