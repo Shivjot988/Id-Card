@@ -330,6 +330,11 @@ function ProductCard(product) {
 
     <div class="temp-canvas-container" id="temp-canvas-container" aria-hidden="true"></div>
   </div>
+   <footer>
+    <div class="container-Footer">
+      <p>&copy; 2023 ID Card Creator Tool. All rights reserved.</p>
+    </div>
+  </footer>
             `;
 }
 
