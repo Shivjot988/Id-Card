@@ -117,7 +117,7 @@ function ProductCard(product) {
                     <div class="label-selects">
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="dob-label-select">Choose DOB label (ਜਨਮ ਮਿਤੀ)</label>
+                                <label for="dob-label-select">Choose DOB label</label>
                                 <select id="dob-label-select">
                                     <option value="ਜਨਮ ਮਿਤੀ/DOB:">ਜਨਮ ਮਿਤੀ/DOB:</option>
                                     <option value="जन्म तिथि/DOB:">जन्म तिथि/DOB:</option>
