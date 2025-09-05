@@ -328,7 +328,6 @@ function ProductCard(product) {
                             </div>
                         </div>
                     </div>
-                    <footer><div class="container-Footer"><p>© 2023 ID Card Creator Tool. All rights reserved.</p></div></footer>
 
                     <div class="controls">
                         <button id="download-btn" class="btn-primary">Download ID Front </button>
@@ -343,6 +342,7 @@ function ProductCard(product) {
 
         <div class="temp-canvas-container" id="temp-canvas-container" aria-hidden="true"></div>
         </div>
+                    <footer><div class="container-Footer"><p>© 2023 ID Card Creator Tool. All rights reserved.</p></div></footer>
   </div>
             `;
 }
