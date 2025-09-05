@@ -109,9 +109,10 @@ function ProductCard(product) {
           <div class="label-selects">
             <div class="form-row">
               <div class="form-group">
-                <label for="dob-label-select">Choose DOB label (ਜਨਮ ਮਿਤੀ)</label>
+                <label for="dob-label-select">Choose DOB label</label>
                 <select id="dob-label-select">
-                  <option value="ਜਨਮ ਮਿਤੀ/DOB:">ਜਨਮ ਮਿਤੀ/DOB:</option>
+                <option value="">Select Type</option>
+                <option value="ਜਨਮ ਮਿਤੀ/DOB:">ਜਨਮ ਮਿਤੀ/DOB:</option>
                   <option value="जन्म तिथि/DOB:">जन्म तिथि/DOB:</option>
                   <option value="জন্ম তারিখ/DOB:">জন্ম তারিখ/DOB:</option>
                   <option value="పుట్టిన తేదీ/DOB:">పుట్టిన తేదీ/DOB:</option>
@@ -125,14 +126,15 @@ function ProductCard(product) {
               <div class="form-group">
                 <label for="address-label-en-select">English Address</label>
                 <select id="address-label-en-select">
-                  <option value="Address :">Address :</option>
+                <option value="">Select Type</option>
+                <option value="Address :">Address :</option>
                 </select>
               </div>
 
               <div class="form-group">
                 <label for="address-label-pa-select">Choose Address</label>
                 <select id="address-label-pa-select">
-                  <option value="select">Select</option>
+                  <option value="">Select</option>
                   <option value="ਪਤਾ:">ਪਤਾ:</option>
                   <option value="ঠিকনা :">ঠিকনা :</option>
                   <option value="ঠিকানা: ">ঠিকানা: </option>
