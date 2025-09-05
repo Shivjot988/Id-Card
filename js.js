@@ -142,30 +142,8 @@ function ProductCard(product) {
               </div>
             </div>
           </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="address-type"> Care Of Type(English)</label>
-              <select id="address-type">
-                <option value="">Select Type</option>
-                <option value="S/O">S/O (Son of)</option>
-                <option value="C/O">C/O (Care of)</option>
-                <option value="W/O">W/O (Wife of)</option>
-                <option value="D/O">D/O (Daughter of)</option>
-              </select>
-            </div>
-            <div class="form-row">
-            <div class="form-group">
-              <label for="address-type-punjabi"> Care Of Type (Translated)</label>
-              <select id="address-type-punjabi">
-                <option value="">Select Type</option>
-                <option value="S/O">S/O (ਪੁੱਤਰ)</option>
-                <option value="C/O">C/O (ਦੇਖਭਾਲ)</option>
-                <option value="W/O">W/O (ਪਤਨੀ)</option>
-                <option value="D/O">D/O (ਧੀ)</option>
-              </select>
-            </div>
-              <div class="form-group">
+          
+          <div class="form-group">
               <label for="address-name"> Father Name (English)</label>
               <input type="text" id="address-name" placeholder="Enter name for address type">
             </div>
