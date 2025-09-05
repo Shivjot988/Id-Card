@@ -309,18 +309,17 @@ textarea {
 .controls {
     display: flex;
     gap: 7px;
-    width: 200px;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 3px 22px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
-    font-size: 16px;
-    min-width: 160px;
+    font-size: 11px;
+    min-width: 96px;
 }
 
 .btn-primary {
