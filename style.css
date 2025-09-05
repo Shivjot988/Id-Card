@@ -131,11 +131,12 @@ textarea {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    width: 100px;
 }
 
 .form-row .form-group {
     flex: 1;
-    min-width: 100px;
+    min-width: 200px;
 }
 
 .preview-section {
