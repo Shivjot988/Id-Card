@@ -308,16 +308,14 @@ textarea {
 
 .controls {
     display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-    flex-wrap: wrap;
+    gap: 7px;
+    width: 200px;
 }
 
 button {
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 50px;
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -328,6 +326,7 @@ button {
 .btn-primary {
     background-color: var(--secondary-color);
     color: white;
+    width: 96px;
 }
 
 .btn-primary:hover {
@@ -341,8 +340,9 @@ button {
 .btn-outline {
     background-color: #2980b9;
     border: 1px solid var(--primary-color);
-    color: var(--primary-color);
     color: white;
+    border-radius: 50px;
+    width: 96px;
 }
 
 .btn-outline:hover {
