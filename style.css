@@ -6,7 +6,7 @@
     --dark-color: #2c3e50;
 
     /* Card design base size in CSS pixels (will be used to compute high-res renders) */
-    --card-width: 250px;
+    --card-width: 235px;
     --card-height: 150px;
 }
 
