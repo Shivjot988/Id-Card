@@ -441,7 +441,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    container {
+    .container {
     max-width: 416px;
     margin: 0 0 0 20px;
     padding: 0 20px;
@@ -464,16 +464,7 @@ footer {
 
     }
 }
-/* @media (max-width: 360px) {
-    .container {
-    max-width: 356px;
-} */
-    
 
-
-
-    
-}
 /* @media (max-width: 460px) {
     .card-front, .card-back {
         width: 250px;
