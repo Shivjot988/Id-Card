@@ -441,6 +441,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+    container {
+    max-width: 416px;
+    margin: 0 0 0 20px;
+    padding: 0 20px;
+    padding-bottom: 40px;
+}
     header {
         background-color: var(--primary-color);
         height: 147px;
