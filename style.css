@@ -441,78 +441,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-    header {
-        background-color: var(--primary-color);
-        height: 147px;
-    }
-    .container {
-    max-width: 469px;
-    margin: 0 0 0 157px;
-    padding: 0 20px;
-    padding-bottom: 40px;
-}
-    .form-section {
-    padding: 0 0 0 157px;
-}
-
-
-
-    .card-wrapper {
-        position: relative;
-        width: var(--card-width);
-        height: var(--card-height);
-    }
-
-    .container-Footer {
-        width: 96%;
-        padding-bottom: 0px;
-
-    }
-}
-
-/* @media (max-width: 460px) {
-    .card-front, .card-back {
-        width: 250px;
-        height: 150px;
-    }
-    .photo-placeholder-front {
-    width: 60px;
-    height: 70px;
-    top: 39px;
-    left: 9px;
-    font-size: 10px;
-}
-  .card-details{
-      top: 33px;
-      left: 76px;
-      
-}
-    .placeholder-front {
-    font-size: 8px;
-    width: 49px;
-    height: 45px;
-    top: 74px;
-}
-    .card-number {
-    font-size: 15px;
-}
-    .Front-Pic, .Back-Pic {
-    width: 248px;
-    height: 146px;
-}
-    .address-details {
-        top: 33px;
-        left: 5px;
-        width: 60%;
-}
-    .placeholder-back {
-    width: 70px;
-    height: 70px;
-    top: 37px;
-}
-
- */
-
     
+    .form-section {
+    padding: 0 0 0 87px;
+}
 }
     
