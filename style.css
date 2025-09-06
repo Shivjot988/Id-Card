@@ -6,8 +6,8 @@
     --dark-color: #2c3e50;
 
     /* Card design base size in CSS pixels (will be used to compute high-res renders) */
-    --card-width: 290px;
-    --card-height: 188px;
+    --card-width: 250px;
+    --card-height: 150px;
 }
 
 * {
@@ -441,16 +441,16 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .container {
-    max-width: 416px;
-    margin: 0 0 0 20px;
-    padding: 0 20px;
-    padding-bottom: 40px;
-}
     header {
         background-color: var(--primary-color);
         height: 147px;
     }
+    .container {
+    max-width: 469px;
+    margin: 0 0 0 157px;
+    padding: 0 20px;
+    padding-bottom: 40px;
+}
 
     .card-wrapper {
         position: relative;
