@@ -451,6 +451,11 @@ footer {
     padding: 0 20px;
     padding-bottom: 40px;
 }
+    .form-section {
+    padding: 0 0 0 157px;
+}
+
+
 
     .card-wrapper {
         position: relative;
